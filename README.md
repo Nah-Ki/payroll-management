@@ -7,7 +7,7 @@ A company payroll management system made with Django and MySQL which lets the ad
     pip install mysqlclinet
     ```
 * clone this project.
-* Go to [settings.py](https://github.com/chirayurathi/payroll_management_system/blob/main/payroll_management_sys/settings.py) payroll_management_sys -> settings.py
+* Go to [settings.py](https://github.com/Nah-Ki/PAYROLL-MANAGEMENT-SYSTEM.git) payroll_management_sys -> settings.py
   Change the database user credentials, this block of code:
   ```
   DATABASES = {
@@ -17,7 +17,7 @@ A company payroll management system made with Django and MySQL which lets the ad
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'password',
+        'PASSWORD': 'Mysql@123',
       }
   }
   ```
@@ -28,7 +28,7 @@ A company payroll management system made with Django and MySQL which lets the ad
   python manage.py migrate
   python populate_user.py #To make dummy employee and admin account
   ```
-* run [populate_table](https://github.com/chirayurathi/payroll_management_system/blob/main/populate_table.sql) SQL script in mysql
+* run [populate_table](https://github.com/Nah-Ki/PAYROLL-MANAGEMENT-SYSTEM.git) SQL script in mysql
 * Finally on cmd run,
 ```
 python manage.py runserver
